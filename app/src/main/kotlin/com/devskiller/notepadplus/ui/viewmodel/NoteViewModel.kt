@@ -41,7 +41,7 @@ class NoteViewModel(
 
     fun upsertNote(note: NoteEntity) {
         viewModelScope.launch {
-            repository.upsertNote(note)
+            repository.insertNote(note)
         }
     }
 

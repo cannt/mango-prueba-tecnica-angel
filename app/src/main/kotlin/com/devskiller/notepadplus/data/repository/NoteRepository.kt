@@ -8,7 +8,7 @@ import java.util.UUID
 class NoteRepository(private val noteDao: NoteDao) {
     val allNotes: Flow<List<NoteEntity>> = noteDao.getAllNotes()
 
-    suspend fun upsertNote(note: NoteEntity) = noteDao.upsertNote(note)
+    suspend fun insertNote(note: NoteEntity) = noteDao.insertNote(note)
 
     suspend fun deleteNote(note: NoteEntity) = noteDao.deleteNote(note)
 

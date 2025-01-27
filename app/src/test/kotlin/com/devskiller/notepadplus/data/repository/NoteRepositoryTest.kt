@@ -26,13 +26,13 @@ class NoteRepositoryTest {
     }
 
     @Test
-    fun upsertNote_callsDaoUpsert() = runTest {
+    fun upsertNote_callsDaoInsert() = runTest {
         val note = NoteEntity(title = "title")
-        coEvery { mockDao.upsertNote(note) } just Runs
+        coEvery { mockDao.insertNote(note) } just Runs
 
-        repository.upsertNote(note)
+        repository.insertNote(note)
 
-        coVerify { mockDao.upsertNote(note) }
+        coVerify { mockDao.insertNote(note) }
     }
 
     @Test

@@ -18,7 +18,7 @@ interface NoteDao {
     suspend fun getNoteById(id: UUID): NoteEntity?
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun upsertNote(note: NoteEntity)
+    suspend fun insertNote(note: NoteEntity)
 
     @Delete
     suspend fun deleteNote(note: NoteEntity)
