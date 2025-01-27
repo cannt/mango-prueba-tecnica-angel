@@ -1,6 +1,6 @@
 # Prueba técnica para Mango por Juan Ángel
 
-Este es mi resultado a la prueba técnica para postularme a la vacante de desarrollador Android en Mango.
+Este es mi resultado a la prueba técnica para postularme a la vacante de desarrollador Android en Mango. Gracias por la oportunidad y espero que mi solución sea de su agrado. ˆˆ
 
 ## Puntos Importantes
 
@@ -11,7 +11,6 @@ Este es mi resultado a la prueba técnica para postularme a la vacante de desarr
    - Añadí las dependencias necesarias para los tests y escribí algunos tests iniciales para empezar a programar.
 2. Antes de acabar el tiempo, cuando intenté hacer un push de los cambios al repositorio original, me di cuenta de que el sistema de evaluación no permite cambios en el Gradle, por lo que me quedé sin tiempo para subirlo. Por esto, me he visto en la obligación de subirlo a un repositorio nuevo. Disculpad las molestias y espero que esto no sea un gran inconveniente.
 3. A continuación, dejo el README original de la prueba junto a un video demostrativo del funcionamiento, con la información necesaria para entender el problema y la solución que he dado.
-4. Gracias por la oportunidad y espero que mi solución sea de su agrado.
 
 ---
 
